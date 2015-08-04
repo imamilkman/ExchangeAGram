@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4913559C1B7043A800EF3F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913559B1B7043A800EF3F50 /* AppDelegate.swift */; };
 		4913559F1B7043A800EF3F50 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4913559D1B7043A800EF3F50 /* ExchangeAGram.xcdatamodeld */; };
-		491355A11B7043A800EF3F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355A01B7043A800EF3F50 /* ViewController.swift */; };
 		491355A41B7043A800EF3F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491355A21B7043A800EF3F50 /* Main.storyboard */; };
 		491355A61B7043A800EF3F50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491355A51B7043A800EF3F50 /* Images.xcassets */; };
 		491355A91B7043A800EF3F50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491355A71B7043A800EF3F50 /* LaunchScreen.xib */; };
 		491355B51B7043A800EF3F50 /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355B41B7043A800EF3F50 /* ExchangeAGramTests.swift */; };
+		491355C31B7047D600EF3F50 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355C21B7047D600EF3F50 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		4913559A1B7043A800EF3F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4913559B1B7043A800EF3F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4913559E1B7043A800EF3F50 /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
-		491355A01B7043A800EF3F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		491355A31B7043A800EF3F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491355A51B7043A800EF3F50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		491355A81B7043A800EF3F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		491355AE1B7043A800EF3F50 /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491355B31B7043A800EF3F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491355B41B7043A800EF3F50 /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+		491355C21B7047D600EF3F50 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 		491355981B7043A800EF3F50 /* ExchangeAGram */ = {
 			isa = PBXGroup;
 			children = (
+				491355C21B7047D600EF3F50 /* FeedViewController.swift */,
 				4913559B1B7043A800EF3F50 /* AppDelegate.swift */,
-				491355A01B7043A800EF3F50 /* ViewController.swift */,
 				491355A21B7043A800EF3F50 /* Main.storyboard */,
 				491355A51B7043A800EF3F50 /* Images.xcassets */,
 				491355A71B7043A800EF3F50 /* LaunchScreen.xib */,
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491355A11B7043A800EF3F50 /* ViewController.swift in Sources */,
 				4913559C1B7043A800EF3F50 /* AppDelegate.swift in Sources */,
+				491355C31B7047D600EF3F50 /* FeedViewController.swift in Sources */,
 				4913559F1B7043A800EF3F50 /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
