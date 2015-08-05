@@ -14,6 +14,7 @@
 		491355A91B7043A800EF3F50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491355A71B7043A800EF3F50 /* LaunchScreen.xib */; };
 		491355B51B7043A800EF3F50 /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355B41B7043A800EF3F50 /* ExchangeAGramTests.swift */; };
 		491355C31B7047D600EF3F50 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355C21B7047D600EF3F50 /* FeedViewController.swift */; };
+		4930E1251B72B8870033AF48 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930E1241B72B8870033AF48 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		491355B31B7043A800EF3F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491355B41B7043A800EF3F50 /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
 		491355C21B7047D600EF3F50 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4930E1241B72B8870033AF48 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				491355C21B7047D600EF3F50 /* FeedViewController.swift */,
 				4913559B1B7043A800EF3F50 /* AppDelegate.swift */,
+				4930E1241B72B8870033AF48 /* FeedCell.swift */,
 				491355A21B7043A800EF3F50 /* Main.storyboard */,
 				491355A51B7043A800EF3F50 /* Images.xcassets */,
 				491355A71B7043A800EF3F50 /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4913559C1B7043A800EF3F50 /* AppDelegate.swift in Sources */,
+				4930E1251B72B8870033AF48 /* FeedCell.swift in Sources */,
 				491355C31B7047D600EF3F50 /* FeedViewController.swift in Sources */,
 				4913559F1B7043A800EF3F50 /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
@@ -415,6 +419,7 @@
 				491355BA1B7043A800EF3F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491355BB1B7043A800EF3F50 /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				491355BD1B7043A800EF3F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
