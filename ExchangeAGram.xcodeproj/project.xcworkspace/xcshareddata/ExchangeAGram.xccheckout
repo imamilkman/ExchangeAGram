@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9C8A70D8-6708-44B4-BFCC-5F69DD8C37DF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ExchangeAGram</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>14E532C258F5DA988D82326DCC34648ADF158551</key>
 		<string>https://github.com/imamilkman/ExchangeAGram.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ExchangeAGram.xcodeproj/project.xcworkspace</string>
+	<string>ExchangeAGram.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>14E532C258F5DA988D82326DCC34648ADF158551</key>
