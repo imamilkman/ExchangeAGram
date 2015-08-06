@@ -15,6 +15,7 @@
 		491355B51B7043A800EF3F50 /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355B41B7043A800EF3F50 /* ExchangeAGramTests.swift */; };
 		491355C31B7047D600EF3F50 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491355C21B7047D600EF3F50 /* FeedViewController.swift */; };
 		4930E1251B72B8870033AF48 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930E1241B72B8870033AF48 /* FeedCell.swift */; };
+		4930E1271B72BBFD0033AF48 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4930E1261B72BBFD0033AF48 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		491355B41B7043A800EF3F50 /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
 		491355C21B7047D600EF3F50 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		4930E1241B72B8870033AF48 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../FeedCell.swift; sourceTree = "<group>"; };
+		4930E1261B72BBFD0033AF48 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4930E1271B72BBFD0033AF48 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 				491355A71B7043A800EF3F50 /* LaunchScreen.xib */,
 				4913559D1B7043A800EF3F50 /* ExchangeAGram.xcdatamodeld */,
 				491355991B7043A800EF3F50 /* Supporting Files */,
+				4930E1261B72BBFD0033AF48 /* MobileCoreServices.framework */,
 			);
 			path = ExchangeAGram;
 			sourceTree = "<group>";
